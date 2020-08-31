@@ -1,5 +1,5 @@
 {
-  "name": "mern-google-auth-blog",
+  "name": "mern-stack-blog",
   "version": "1.0.0",
   "description": "MERN stack blog app with google auth",
   "main": "server.js",
@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Soumya Ranjan Mohanty",
+  "author": "Mohammad Faisal Khan",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.3",
